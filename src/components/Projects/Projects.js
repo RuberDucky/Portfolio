@@ -9,6 +9,7 @@ import deliverClient from "../../Assets/Projects/deliver.png";
 import deliverPartner from "../../Assets/Projects/gfl.png";
 import vazra from "../../Assets/Projects/vazra.png";
 import fitsRight from "../../Assets/Projects/fitsRight.png";
+import dhalem from "../../Assets/dhelem.png";
 
 
 function Projects() {
@@ -102,18 +103,20 @@ function Projects() {
             // appStoreLink="https://apps.apple.com/app/idYourAppId" // replace with the link to your app on the App Store when available
             />
           </Col>
-          {/* <Col md={4} className="project-card">
+           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={dhalem}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="dhalem"
+              description="dhalem is a real estate website that I developed using Next.js, TypeScript, and Tailwind CSS. The website is fully responsive and provides a seamless user experience across all devices."
+              ghLink="https://github.com/RuberDucky/dhalem"
+              demoLink="https://dhalem.vercel.app/"
+              // appStoreLink="https://apps.apple.com/app/idYourAppId" 
+              // playStoreLink="https://play.google.com/store/apps/details?id=com.fitsright.app"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+         {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
